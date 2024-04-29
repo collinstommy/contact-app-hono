@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.tsx",
+    "db:push": "drizzle-kit push:sqlite",
+    "db:studio": "drizzle-kit studio",
+    "db:generate": "drizzle-kit generate:sqlite"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "drizzle-orm": "^0.30.9",
+    "hono": "^4.2.9",
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.20.17",
+    "eslint": "^9.1.1",
+    "globals": "^15.1.0",
+    "typescript-eslint": "^7.8.0"
+  }
+}

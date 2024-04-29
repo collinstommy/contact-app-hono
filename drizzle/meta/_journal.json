@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714368589567,
+      "tag": "0000_fair_lady_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1714372142250,
+      "tag": "0001_spotty_swordsman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1714372217969,
+      "tag": "0002_tense_the_liberteens",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1714372318718,
+      "tag": "0003_crazy_lord_tyger",
+      "breakpoints": true
+    }
+  ]
+}
