@@ -18,10 +18,18 @@ export const getContactById = (id: number) => {
   return db.query.contacts.findFirst({ where: eq(contacts.id, id) });
 };
 
+export const getContactByEmail = (email: string) => {
+  return db.query.contacts.findFirst({ where: eq(contacts.email, email) });
+};
+
 export const editContact = (id: number, updatedContact: Partial<Contact>) => {
   return db.update(contacts).set(updatedContact).where(eq(contacts.id, id));
 };
 
 export const deleteContactById = (id: number) => {
   return db.delete(contacts).where(eq(contacts.id, id));
+};
+
+export const createContact = (newContact: Omit<Contact, "id">) => {
+  return db.insert(contacts).values(newContact);
 };
